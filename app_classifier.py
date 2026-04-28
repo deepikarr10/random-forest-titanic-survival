@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import joblib
+from joblib import load
 
 # Load model and encoder
 model = joblib.load("rf_classifier_model.pkl")
