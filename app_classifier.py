@@ -3,8 +3,8 @@ import numpy as np
 from joblib import load
 
 # Load model and encoder
-model = joblib.load("rf_classifier_model.pkl")
-le = joblib.load("label_encoder.pkl")
+model = load("rf_classifier_model.pkl")
+le = load("label_encoder.pkl")
 
 # ---------------- CENTER ALIGN CSS ----------------
 st.markdown("""
